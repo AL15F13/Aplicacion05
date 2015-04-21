@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+ <head> 
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"/>
+ 
+  <title>Aplicacion05</title>
+
+  <!--grupo CSS-->
+  <link rel="stylesheet" href="css/jquery.mobile-1.4.5.min.css" />
+  <link rel="stylesheet" href="css/jquery.mobile.icons-1.4.5.min.css" />
+  <link rel="stylesheet" href="css/jquery.mobile.structure-1.4.5.min.css" /> 
+        
+        
+
+
+  <!--grupo JavaScript-->
+  <script src="js/jquery-1.11.2.min.js"></script>
+  <script src="js/jquery.mobile-1.4.5.min.js"></script>
+  <script src="js/acciones.js" type="text/javascript"></script>
+  <!-- <script src="phonegap.js" type="text/javascript"></script> -->
+ </head>
+
+ <body>
+ 
+ <!-- Principal -->
+ <div data-role="page" id="principal" >   
+  <div data-role="header">
+    <h1>Aplicacion05</h1>
+  </div>
+
+  <div data-role="main" class="ui-content">
+   
+   <div data-role="controlgroup" data-type="horizontal" align="center">
+    <input type="text" placeholder="Nombre" id="txtnombre" >
+    <a href="#" id="btndatos"
+    class="ui-btn ui-icon-arrow-r ui-btn-icon-right ui-corner-all">Siguiente</a>
+    </div>
+ </div>
+
+  <div data-role="footer">
+    <h1>@Said Galindo Flores</h1>
+  </div>
+ </div>  
+ <!-- FinPrincipal -->
+ 
+ <!-- Datos -->
+ <div data-role="page" id="datos" >   
+  <div data-role="header">
+    <h1>Aplicacion05</h1>
+  </div>
+
+  <div data-role="main" class="ui-content">
+    <div data-role="controlgroup" data-type="horizontal" align="center">
+    <input type="text" placeholder="Peso" id="txtpeso">
+    <input type="text" placeholder="Talla" id="txttalla">
+    <a href="#" id="btnresultado"
+    class="ui-btn ui-icon-arrow-r ui-btn-icon-right ui-corner-all">Siguiente</a>
+    </div>
+  </div>
+
+  <div data-role="footer">
+    <h1>@Said Galindo Flores</h1>
+  </div>
+ </div>  
+ <!-- FinDatos -->
+ 
+ <!--Resultado-->
+ <div data-role="page" id="resultado" >    
+  <div data-role="header">
+    <h1>Aplicacion05</h1>
+  </div>
+
+  <div data-role="main" class="ui-content">
+    <div style="text-align:center">
+     Resultado
+     <br><br>
+     IMC
+    </div>
+    <div id="imc" style="text-align:center"> <!--Imc-->
+    </div>     <!--FinImc-->
+    
+  </div>
+
+  <div data-role="footer">
+    <h1>@Said Galindo Flores</h1>
+  </div>
+  
+ </div>  
+ <!-- FinResultado -->
+
+ </body>
+</html> 
